@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body 
+{
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+section
+{
+    height: 100vh;
+    padding: 50px;
+}
+#hero
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#hero h1
+{
+     font-size: 60px;
+     color:  #00d9ff;
+    
+     text-shadow:
+    0 0 10px #00d9ff,
+    0 0 20px #00d9ff,
+    0 0 40px #00d9ff;
+}
+#hero p
+{
+     margin-top: 20px;
+     font-size: 20px;
+     color: #aaa;
+}
+#about, #projects, #contact 
+{
+  background: #111;
+  margin-top: 10px;
+}
+h2 
+{
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #00d9ff;
+}
+

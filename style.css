@@ -31,6 +31,12 @@ section
     0 0 20px #00d9ff,
     0 0 40px #00d9ff;
 }
+#hero h1:hover {
+  text-shadow:
+    0 0 20px #00d9ff,
+    0 0 40px #00d9ff,
+    0 0 80px #00d9ff;
+}
 #hero p
 {
      margin-top: 20px;
@@ -48,4 +54,3 @@ h2
   margin-bottom: 20px;
   color: #00d9ff;
 }
-
